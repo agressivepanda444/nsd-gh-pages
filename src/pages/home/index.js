@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 import ChannelSurf from "../../assets/videos/channelsurf.mp4";
+import ChannelSurf2 from "../../assets/videos/channelsurf.webm";
 
 export const Home = () => {
   return (
@@ -24,16 +25,20 @@ export const Home = () => {
             
           }}
           /> */}
-          <video class="Desktop" autoPlay loop muted playsInline >
+          <video class="Desktop"  preload="auto" autoPlay loop muted playsInline >
+            <source src={ChannelSurf2} type="video/mp4"></source>
             <source src={ChannelSurf} type="video/mp4"></source>
           </video>
-          <video class="Desktop" autoPlay loop muted playsInline>
+          <video class="Desktop"   preload="auto" autoPlay loop muted playsInline>
+            <source src={ChannelSurf2} type="video/mp4"></source>
             <source src={ChannelSurf} type="video/mp4"></source>
           </video>
-          <video class="Desktop" autoPlay loop muted playsInline >
+          <video class="Desktop"  preload="auto" autoPlay loop muted playsInline >
+            <source src={ChannelSurf2} type="video/mp4"></source>
             <source src={ChannelSurf} type="video/mp4"></source>
           </video>
-          <video class="Desktop" autoPlay loop muted playsInline>
+          <video class="Desktop"  preload="auto" autoPlay loop muted playsInline>
+            <source src={ChannelSurf2} type="video/mp4"></source>
             <source src={ChannelSurf} type="video/mp4"></source>
           </video>
         </div>
