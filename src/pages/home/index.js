@@ -16,16 +16,24 @@ export const Home = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <video class="Desktop" autoPlay loop muted >
+          {/* <div dangerouslySetInnerHTML={{
+            __html: `
+            <video autoplay loop muted >
+            <source src="../../assets/videos/channelsurf.mp4" />
+            </video>`
+            
+          }}
+          /> */}
+          <video class="Desktop" autoPlay loop muted playsInline >
             <source src={ChannelSurf} type="video/mp4"></source>
           </video>
-          <video class="Desktop" autoPlay loop muted >
+          <video class="Desktop" autoPlay loop muted playsInline>
             <source src={ChannelSurf} type="video/mp4"></source>
           </video>
-          <video class="Desktop" autoPlay loop muted >
+          <video class="Desktop" autoPlay loop muted playsInline >
             <source src={ChannelSurf} type="video/mp4"></source>
           </video>
-          <video class="Desktop" autoPlay loop muted >
+          <video class="Desktop" autoPlay loop muted playsInline>
             <source src={ChannelSurf} type="video/mp4"></source>
           </video>
         </div>
