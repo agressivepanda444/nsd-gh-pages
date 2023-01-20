@@ -7,6 +7,7 @@ import {
   dataabout,
   meta,
   worktimeline,
+  worktimeline2,
   introdata,
   mission,
 } from "../../content_option";
@@ -66,12 +67,14 @@ export const About = () => {
                           introdata.animated.eight,
                           introdata.animated.ninth,
                           introdata.animated.tenth,
-
+                          introdata.animated.eleventh,
+                          introdata.animated.twelveth,
+                          introdata.animated.thirteenth,
                         ],
                         autoStart: true,
                         loop: true,
-                        deleteSpeed: 0,
-                        delay: 0,
+                        deleteSpeed: -2,
+                        delay: -10,
                         cursor: "",
                       }}
                     />
@@ -79,7 +82,27 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">EVENTS</h3>
+            <h3 className="color_sec py-4">UPCOMING EVENTS</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {worktimeline2.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.jobtitle}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">PAST EVENTS</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">

@@ -1,7 +1,7 @@
 const logotext = "NOTSODIFFERENT";
 const meta = {
     title: "NOTSODIFFERENT",
-    description: "I’m Agressive Panda, a senior at Brown University studying computer science",
+    description: "NOTSODIFFERENT website",
 };
 
 const introdata = {
@@ -17,8 +17,11 @@ const introdata = {
         eight: "Fashion Designers",
         ninth: "Filmmakers",
         tenth: "Entrepreneurs",
+        eleventh: "Producers",
+        twelveth: "Animators",
+        thirteenth: "DJs",
     },
-    description: "Welcome to my UI/UX portfolio",
+    description: "A brief running description of the labels NSD members hold",
 };
 
 const dataabout = {
@@ -27,13 +30,17 @@ const dataabout = {
     aboutme2: "Jordan Walendom",
     aboutme3: "Namoo Song",
 };
-const worktimeline = [
+
+const worktimeline2 = [
     {
         jobtitle: "Small Victories Winter Welcome Back DJ Set",
         where: "Fete Music Hall",
         date: "01/27/2023",
 
     },
+]
+
+const worktimeline = [
     {
         jobtitle: "WBRU Live Sessions Performance",
         where: "88 Benevolent St",
@@ -42,7 +49,7 @@ const worktimeline = [
     },
     {
         jobtitle: "NOTSODIFFERENT It's Over Already  Concert",
-        where: "Namoo's Basement",
+        where: "195 Brown St",
         date: "12/10/2022",
 
     },
@@ -88,14 +95,19 @@ const worktimeline = [
         date: "10/21/2022",
 
     },
+    {
+        jobtitle: "BΩX Welcome B(l)ack Afterparty DJ Set",
+        where: "Patriot's Court",
+        date: "10/21/2022",
+    },
 
 ];
 
 const mission = {
     title: "WHAT WE ARE",
-    motivation: "NOTSODIFFERENT is a collective born out of Brown " +
+    motivation: "NOTSODIFFERENT is an artist collective born out of Brown " +
      "and RISD centered around hip hop culture. Established in October of " +
-     "2022, NSD aims to connect various student artists and organizers to build a vibrant " +
+     "2022, NSD aims to connect various student artists and organizers to build a vibrant, collaborative " +
      "community fueled by passion.", 
 };
 
@@ -163,6 +175,7 @@ export {
     dataabout,
     dataportfolio,
     worktimeline,
+    worktimeline2,
     skills,
     services,
     introdata,
