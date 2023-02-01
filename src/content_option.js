@@ -33,14 +33,20 @@ const dataabout = {
 
 const worktimeline2 = [
     {
-        jobtitle: "Small Victories Winter Welcome Back DJ Set",
-        where: "Fete Music Hall",
-        date: "01/27/2023",
+        jobtitle: "Circque du Salon: A Collaboration with Salon 149",
+        where: "Salon149",
+        date: "02/03/2023",
 
     },
 ]
 
 const worktimeline = [
+    {
+        jobtitle: "Small Victories Winter Welcome Back DJ Set",
+        where: "Fete Music Hall",
+        date: "01/27/2023",
+
+    },
     {
         jobtitle: "WBRU Live Sessions Performance",
         where: "88 Benevolent St",

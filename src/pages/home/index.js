@@ -8,10 +8,10 @@ import HomeVideo1 from "../../assets/videos/nsdwebsitevideo5.mp4";
 import HomeVideo2 from "../../assets/videos/nsdwebvid2.mp4";
 import HomeVideo3 from "../../assets/videos/nsdwebvid3.mp4";
 import HomeVideo4 from "../../assets/videos/nsdwebsite4.mp4";
-import HomeVideo1w from "../../assets/videos/nsdwebvid5.webm";
-import HomeVideo2w from "../../assets/videos/nsdwebvid2.webm";
-import HomeVideo3w from "../../assets/videos/nsdwebvid3.webm";
-import HomeVideo4w from "../../assets/videos/nsdwebsite4.webm";
+// import HomeVideo1w from "../../assets/videos/nsdwebvid5.webm";
+// import HomeVideo2w from "../../assets/videos/nsdwebvid2.webm";
+// import HomeVideo3w from "../../assets/videos/nsdwebvid3.webm";
+// import HomeVideo4w from "../../assets/videos/nsdwebsite4.webm";
 
 export const Home = () => {
     return (
@@ -32,20 +32,20 @@ export const Home = () => {
             }}
             /> */}
             <video class="Desktop"  preload="auto" autoPlay loop muted playsInline >
-              <source src={HomeVideo1w} type="video/mp4"></source>
-              {/* <source src={HomeVideo1} type="video/mp4"></source> */}
+              {/* <source src={HomeVideo1w} type="video/mp4"></source> */}
+              <source src={HomeVideo1} type="video/mp4"></source>
             </video>
             <video class="Desktop"   preload="auto" autoPlay loop muted playsInline>
-              <source src={HomeVideo2w} type="video/mp4"></source>
-              {/* <source src={HomeVideo2} type="video/mp4"></source> */}
+              {/* <source src={HomeVideo2w} type="video/mp4"></source> */}
+              <source src={HomeVideo2} type="video/mp4"></source>
             </video>
             <video class="Desktop"  preload="auto" autoPlay loop muted playsInline >
-              <source src={HomeVideo3w} type="video/mp4"></source>
-              {/* <source src={HomeVideo3} type="video/mp4"></source> */}
+              {/* <source src={HomeVideo3w} type="video/mp4"></source> */}
+              <source src={HomeVideo3} type="video/mp4"></source>
             </video>
             <video class="Desktop"  preload="auto" autoPlay loop muted playsInline>
-              <source src={HomeVideo4w} type="video/mp4"></source>
-              {/* <source src={HomeVideo4} type="video/mp4"></source> */}
+              {/* <source src={HomeVideo4w} type="video/mp4"></source> */}
+              <source src={HomeVideo4} type="video/mp4"></source>
             </video>
           </div>
         </section>
