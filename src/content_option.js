@@ -38,6 +38,12 @@ const worktimeline2 = [
         date: "02/03/2023",
 
     },
+    {
+        jobtitle: "NSD Super Bowl",
+        where: "Waterman Co-op",
+        date: "02/10/2023",
+
+    },
 ]
 
 const worktimeline = [
