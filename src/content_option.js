@@ -33,7 +33,7 @@ const dataabout = {
 
 const worktimeline2 = [
     {
-        jobtitle: "Circque du Salon: A Collaboration with Salon 149",
+        jobtitle: "Cirque du Salon: A Collaboration with Salon 149",
         where: "Salon149",
         date: "02/03/2023",
 
